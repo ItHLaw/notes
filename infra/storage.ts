@@ -9,3 +9,4 @@ export const table = new sst.aws.Dynamo("Notes", {
     },
     primaryIndex: { hashKey: "userId", rangeKey: "noteId" },
   });
+  
